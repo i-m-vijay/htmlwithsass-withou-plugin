@@ -1,0 +1,33 @@
+body{
+	background-color: yellow;
+	h1{
+		color: #000;
+	}
+}
+
+
+
+
+/*npm run sass*/
+
+/*
+
+https://dev.to/chrissiemhrk/how-to-setup-sass-in-your-project-2bo1
+
+STEPS TO SETUP SASS IN PROJECT
+
+1. Create scss folder and style.scss file in it firstly then open cmd.
+
+2. npm init // to create package.json file.
+3. npm install node-sass  // to install the node-sass dependency in your project.
+4. In the package.json file, you'll find the scripts object and then add 
+	
+	"scripts": {
+		"sass": "node-sass -w scss/ -o css/ --recursive"
+	},
+
+5. Run the sass script // npm run sass	
+
+6. After these steps when we save our scss code in file it will create a css file automatically and then we need to add css file path in our head. 
+
+*/
